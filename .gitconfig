@@ -1,0 +1,21 @@
+[user]
+name = mrmcc3
+email = mrmcc3@gmail.com
+
+[alias]
+st = status
+ci = commit
+co = checkout
+br = branch
+
+[core]
+excludesfile = ~/.gitexcludes
+
+[push]
+default = simple
+
+[filter "lfs"]
+clean = git-lfs clean %f
+smudge = git-lfs smudge %f
+required = true
+
