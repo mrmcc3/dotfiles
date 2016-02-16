@@ -6,5 +6,5 @@ shopt -s checkwinsize
 
 export PATH=$HOME/bin:$PATH
 
-export EDITOR='emacsclient -c'
+export EDITOR='vim'
 
