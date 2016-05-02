@@ -16,7 +16,9 @@ brew 'httpie'
 brew 'tree'
 brew 'awscli'
 brew 'node'
+brew 'leiningen'
 brew 'mas'
+
 
 cask 'iterm2-beta'
 cask 'sublime-text3'

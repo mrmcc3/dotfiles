@@ -105,14 +105,10 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 
 ### iTerm2
 
-general > uncheck confirm quits
-new profile
-set as default
-general > command > /usr/local/bin/bash
-colors > solarized dark
-text > change font > source code pro medium 15pt
-window > columns 125 > rows 35
-terminal > silence bell
-
-
-
+- general > uncheck confirm quits
+- new profile > set as default
+- profile > general > command > /usr/local/bin/bash
+- profile > colors > solarized dark
+- profile > text > change font > source code pro medium 15pt
+- profile > window > columns 125 > rows 35
+- profile > terminal > silence bell
