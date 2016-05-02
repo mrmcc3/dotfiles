@@ -65,3 +65,14 @@ that homebrew should install. Review the `Brewfile` then run
 ```
 $ brew bundle
 ```
+
+### Sublime Text
+
+install package control https://packagecontrol.io/installation
+
+use `cmd-shift-p > install package` to install the following
+
+- Material Theme
+
+
+
