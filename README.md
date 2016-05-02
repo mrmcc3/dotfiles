@@ -34,7 +34,7 @@ awkward to reach (especially if you need it often. emacs editing for example)
 
 Under `System Preferences > Trackpad` check `Tap to Click` 
 
-Under `System Preferences > Keyboard` check `Automatically hide and show Dock`
+Under `System Preferences > Dock` check `Automatically hide and show Dock`
 
 Remove everything from the dock that you dont need (by dragging to trash). For me this is everything.
 Spotlight Search / Alfred provide better mechanisms for launching apps
