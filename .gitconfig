@@ -1,5 +1,5 @@
 [user]
-name = mrmcc3
+name = Michael McClintock
 email = mrmcc3@gmail.com
 
 [alias]
@@ -9,13 +9,9 @@ co = checkout
 br = branch
 
 [core]
-excludesfile = ~/.gitexcludes
-
-[push]
-default = simple
+excludesfile = ~/.gitignore
 
 [filter "lfs"]
 clean = git-lfs clean %f
 smudge = git-lfs smudge %f
 required = true
-

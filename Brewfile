@@ -1,0 +1,26 @@
+tap 'homebrew/core'
+brew 'openssl'
+brew 'git'
+brew 'readline'
+brew 'bash'
+brew 'bash-completion'
+brew 'fasd'
+brew 'fish'
+brew 'zsh'
+
+tap 'caskroom/cask'
+cask 'google-chrome'
+cask 'github-desktop'
+cask 'plex-media-server'
+cask 'alfred'
+cask 'utorrent'
+cask 'aerial'
+
+tap 'caskroom/versions'
+cask 'iterm2-beta'
+cask 'sublime-text3'
+
+tap 'caskroom/fonts'
+cask 'font-source-code-pro'
+
+brew 'argon/mas/mas'
