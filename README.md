@@ -74,5 +74,34 @@ use `cmd-shift-p > install package` to install the following
 
 - Material Theme
 
+use `cmd-shift-p > Preferences: Settings - User` to save the following
+
+```javascript
+{
+  "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+  "font_face": "Source Code Pro Medium",
+  "font_size": 15,
+  "ignored_packages":
+  [
+  ],
+  "material_theme_accent_red": true,
+  "overlay_scroll_bars": "enabled",
+  "save_on_focus_lost": true,
+  "tab_size": 2,
+  "theme": "Material-Theme-Darker.sublime-theme",
+  "translate_tabs_to_spaces": true
+}
+```
+
+also enable repating keys with
+
+```
+defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
+```
+
+### iTerm2
+
 
 
