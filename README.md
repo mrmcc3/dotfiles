@@ -12,7 +12,7 @@ The rest of this document serves as an opinionated guide for setting up a fresh 
 
 ## Start fresh
 
-Fresh OSX install preferably on a Encrypted, Non-Case-Sensitive Volume
+Fresh OSX install (latest version) preferably on a Encrypted, Non-Case-Sensitive Volume
 
 ## Updates
 
@@ -30,6 +30,23 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 ```
 
 If all goes well you should be able to type `brew doctor` and get back `Your system is ready to brew.`
+
+## Dotfiles
+
+Grab the dotfiles from this repo and install them
+
+```
+$ git clone https://github.com/mrmcc3/dotfiles && cd dotfiles && source install.sh
+```
+
+## Homebrew Bundle
+
+You should now have a `Brewfile` in your home directory. It contains a list of programs and applications
+that homebrew should install. Review the `Brewfile` then run
+
+```
+$ brew bundle
+```
 
 ## Keyboard
 
