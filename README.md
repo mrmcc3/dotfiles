@@ -66,6 +66,8 @@ that homebrew should install. Review the `Brewfile` then run
 $ brew bundle
 ```
 
+# WIP BELOW...
+
 ### Sublime Text
 
 install package control https://packagecontrol.io/installation
@@ -102,6 +104,15 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 ```
 
 ### iTerm2
+
+general > uncheck confirm quits
+new profile
+set as default
+general > command > /usr/local/bin/bash
+colors > solarized dark
+text > change font > source code pro medium 15pt
+window > columns 125 > rows 35
+terminal > silence bell
 
 
 

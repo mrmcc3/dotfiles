@@ -33,7 +33,7 @@ cask 'alfred'
 cask 'sketch'
 cask 'terraform'
 cask 'java'
-# cask 'intellij-idea'
+cask 'intellij-idea'
 
 mas 'DaisyDisk', id: 411643860
 mas 'Icon Slate', id: 439697913
