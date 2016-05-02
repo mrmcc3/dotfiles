@@ -1,10 +1,14 @@
-# mrmcc3/dotfiles
+# Dotfiles
 
 To install the dotfiles clone this repo and run the `install.sh` script.
 
+```
+$ git clone https://github.com/mrmcc3/dotfiles && cd dotfiles && source install.sh
+```
+
 # Dev Setup Guide
 
-The rest of this document serves as an opinionated mac setup guide aimed at developers.
+The rest of this document serves as an opinionated guide for setting up a fresh mac (aimed at developers).
 
 ## Start fresh
 
