@@ -11,14 +11,15 @@ brew 'git-lfs'
 brew 'bash'
 brew 'bash-completion'
 brew 'fasd'
+brew 'fish'
 brew 'curl'
 brew 'httpie'
 brew 'tree'
 brew 'awscli'
 brew 'node'
+brew 'nvm'
 brew 'leiningen'
 brew 'mas'
-
 
 cask 'iterm2-beta'
 cask 'sublime-text3'
@@ -40,3 +41,4 @@ cask 'intellij-idea'
 mas 'DaisyDisk', id: 411643860
 mas 'Icon Slate', id: 439697913
 mas 'Tweetbot for Twitter', id: 557168941
+mas 'Xcode', id: 497799835

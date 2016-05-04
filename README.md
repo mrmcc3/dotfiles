@@ -112,3 +112,11 @@ defaults write com.sublimetext.3 ApplePressAndHoldEnabled -bool false
 - profile > text > change font > source code pro medium 15pt
 - profile > window > columns 125 > rows 35
 - profile > terminal > silence bell
+
+### Node 
+
+TODO install global packages
+
+### IntelliJ Setup
+
+TODO
