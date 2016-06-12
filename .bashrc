@@ -1,7 +1,7 @@
 [ -z "$PS1" ] && return
 
 # ---------------------------------------------------------------------------------------------
-# Sensible Bash 
+# Sensible Bash
 
 source ~/sensible.bash
 
@@ -21,13 +21,7 @@ PS1="${GREEN}\u ${GRAY}\w \n${YELLOW}• ${GRAY}"
 # ---------------------------------------------------------------------------------------------
 # alias
 
-alias reload="source ~/.bashrc"
-
-if [ $(uname) = "Linux" ]; then
-  alias ls="ls --color=auto"
-else
-  alias ls="ls -G"
-fi
+alias ls="ls -G"
 alias la="ls -AF"
 alias ll="ls -al"
 alias ..='cd ..'
@@ -44,12 +38,13 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # ---------------------------------------------------------------------------------------------
-# fasd
-
-eval "$(fasd --init auto)"
-
-# ---------------------------------------------------------------------------------------------
 # nvm
 
 export NVM_DIR="$HOME/.nvm"
 . "$(brew --prefix nvm)/nvm.sh"
+
+# ---------------------------------------------------------------------------------------------
+# go
+
+export GOPATH="${HOME}/src/go"
+export PATH="${GOPATH}/bin:${PATH}"
